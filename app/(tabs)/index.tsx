@@ -5,8 +5,8 @@ const lexa1 = () => {
   
     <View style={[styles.defaultViewMain,{backgroundColor: "lightblue", flex:1,}]}>
     
-      <View style={[styles.defaultView,{paddingTop:0}]}>
-      <View style={[styles.defaultView,{backgroundColor: 'red', height:90,justifyContent:"center",alignItems:"center"}]}>
+      <View style={[styles.defaultView,{paddingTop:0, height:90,}]}>
+      <View style={[styles.defaultView,{backgroundColor: 'red', flex:1, justifyContent:"center",alignItems:"center"}]}>
       <Text style={[styles.defaultText,{}]}>RÖD</Text>
       </View>
       </View>
@@ -20,14 +20,14 @@ const lexa1 = () => {
       </View>
       </View>
       
-      <View style={[styles.defaultView, styles.defaultViewRow,{}]}>
-      <View style={[styles.defaultView,{backgroundColor: 'red', height:45, flex:3}]}/>
+      <View style={[styles.defaultView, styles.defaultViewRow,{height:45}]}>
+      <View style={[styles.defaultView,{backgroundColor: 'red', flex:3}]}/>
       <View style={[styles.defaultView]}/>
       <View style={[styles.defaultView,{backgroundColor: 'black', flex:1}]}/>
       </View>
       
-      <View style={{flex:1,justifyContent:"flex-end", }}>
-      <View style={[styles.defaultView,{backgroundColor:'orange',height:30,alignItems:"flex-end",justifyContent:"center"}]}>
+      <View style={{flex:1,justifyContent:"flex-end"}}>
+      <View style={[styles.defaultView,{backgroundColor:'orange', height:30, alignItems:"flex-end", justifyContent:"center"}]}>
       <Text style={[styles.defaultText,{}]}>ORANGE</Text>
       </View>
       </View>
